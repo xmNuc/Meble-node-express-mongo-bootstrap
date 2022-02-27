@@ -1,7 +1,28 @@
-// $bgcolor: black;
-// $font-color: rgb(246, 250, 206);
+:root {
+  --bs-font-sans-serif: 'Rubik', sans-serif;
+}
 
-// body {
-//   background-color: $bgcolor;
-//   color: $font-color;
-// }
+.container-xxl {
+  max-width: 1530px;
+}
+
+$bg-color: linear-gradient(
+  52deg,
+  rgba(228, 202, 245, 1) 0%,
+  rgba(76, 85, 219, 1) 100%
+);
+
+$font-color: rgb(51, 53, 32);
+
+.body {
+  background: rgb(228, 202, 245);
+  background: $bg-color;
+  color: $font-color;
+  background-image: url('./bg.svg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  color: var(-bs-dark);
+}

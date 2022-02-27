@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+:root {
+  --bs-font-sans-serif: 'Rubik', sans-serif;
+}
+
+.container-xxl {
+  max-width: 1530px;
+}
+
+.body {
+  background: #e4caf5;
+  background: linear-gradient(52deg, #e4caf5 0%, #4c55db 100%);
+  color: #333520;
+  background-image: url("./bg.svg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  color: var(-bs-dark);
+}
+/*# sourceMappingURL=style.css.map */
