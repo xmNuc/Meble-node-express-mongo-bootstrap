@@ -1,3 +1,3 @@
 exports.homepage = async (req, res) => {
-  res.render('index', { title: 'Coocing blog - Home' });
+  res.render('index', { title: 'Meble na wymiar' });
 };

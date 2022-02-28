@@ -1,9 +1,9 @@
 :root {
-  --bs-font-sans-serif: 'Rubik', sans-serif;
+  --bs-font-sans-serif: 'Rubik', 'Lobster', sans-serif;
 }
 
 .container-xxl {
-  max-width: 1530px;
+  max-width: 1650px;
 }
 
 $bg-color: linear-gradient(
@@ -18,11 +18,32 @@ $font-color: rgb(51, 53, 32);
   background: rgb(228, 202, 245);
   background: $bg-color;
   color: $font-color;
-  background-image: url('./bg.svg');
-  background-attachment: fixed;
-  background-size: cover;
+  // background-image: url('./bg.svg');
+  // background-attachment: fixed;
+  // background-size: cover;
 }
 
 a {
   color: var(-bs-dark);
+}
+.main-logo {
+  font-family: 'Lobster';
+  font-size: 2.5rem;
+  color: rgb(64, 174, 233);
+  transition: 0.2s;
+}
+.main-logo:hover {
+  color: rgb(44, 24, 133);
+}
+.main-logo img {
+  border-radius: 300px;
+  background: none;
+  transition: 0.6s;
+}
+.main-logo img:hover {
+  background: radial-gradient(
+    circle,
+    rgba(116, 210, 253, 0.838) 0%,
+    rgba(255, 255, 255, 1) 64%
+  );
 }
