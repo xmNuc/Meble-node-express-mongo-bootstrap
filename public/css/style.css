@@ -82,17 +82,17 @@ a {
 }
 
 .contact-left {
-  max-width: 247px;
-  max-height: 322px;
+  max-width: 300px;
+  max-height: 375px;
 }
 
 .contact-center {
-  max-width: 322px;
-  max-height: 330px;
+  max-width: 380px;
+  max-height: 385px;
 }
 
 .contact-right {
-  max-width: 328px;
-  max-height: 295px;
+  max-width: 430px;
+  max-height: 375px;
 }
 /*# sourceMappingURL=style.css.map */
