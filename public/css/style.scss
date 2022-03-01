@@ -3,13 +3,13 @@
 }
 
 .container-xxl {
-  max-width: 1650px;
+  max-width: 1600px;
 }
 
 $bg-color: linear-gradient(
   52deg,
-  rgba(228, 202, 245, 1) 0%,
-  rgba(76, 85, 219, 1) 100%
+  rgba(243, 214, 249, 1) 0%,
+  rgba(127, 134, 244, 1) 100%
 );
 
 $font-color: rgb(51, 53, 32);
@@ -30,20 +30,61 @@ a {
   font-family: 'Lobster';
   font-size: 2.5rem;
   color: rgb(64, 174, 233);
-  transition: 0.2s;
+  transition: 0.25s;
 }
 .main-logo:hover {
-  color: rgb(44, 24, 133);
+  transform: scale(1.02);
+  color: rgb(64, 174, 233);
 }
 .main-logo img {
   border-radius: 300px;
   background: none;
   transition: 0.6s;
 }
-.main-logo img:hover {
-  background: radial-gradient(
-    circle,
-    rgba(116, 210, 253, 0.838) 0%,
-    rgba(255, 255, 255, 1) 64%
-  );
+
+.category__link {
+  text-align: center;
+  display: block;
+  color: $font-color;
+  text-decoration: none;
+  transition: 0.25s all;
+}
+
+.category__link:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+.category__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 1px solid #e0f7ff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.category__img--large {
+  height: 330px;
+}
+
+.category__img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact-left {
+  max-width: 247px;
+  max-height: 322px;
+}
+.contact-center {
+  max-width: 322px;
+  max-height: 330px;
+}
+.contact-right {
+  max-width: 328px;
+  max-height: 295px;
 }
