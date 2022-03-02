@@ -29,33 +29,19 @@
 </div>
 <!-- ------------ -->
 <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 py-4">
+  <% if(categories != '') { %> <% categories.forEach(function(category, index) {
+  %>
   <a href="/categories/" class="col text-center category__link">
     <div class="category__img shadow">
-      <img src="img/random.jpg" alt="" loading="lazy" />
+      <img
+        src="img/<%- category.image %>"
+        alt="<%- category.name_pl %>"
+        loading="lazy"
+      />
     </div>
-    <div class="pt-1">Kuchnia 1</div>
+    <div class="pt-1"><%- category.name %></div>
   </a>
-  <a href="/categories/" class="col text-center category__link">
-    <div class="category__img shadow">
-      <img src="img/random.jpg" alt="" loading="lazy" />
-    </div>
-    <div class="pt-1">Kuchnia 2</div> </a
-  ><a href="/categories/" class="col text-center category__link">
-    <div class="category__img shadow">
-      <img src="img/random.jpg" alt="" loading="lazy" />
-    </div>
-    <div class="pt-1">Kuchnia 3</div> </a
-  ><a href="/categories/" class="col text-center category__link">
-    <div class="category__img shadow">
-      <img src="img/random.jpg" alt="" loading="lazy" />
-    </div>
-    <div class="pt-1">Kuchnia 4</div> </a
-  ><a href="/categories/" class="col text-center category__link">
-    <div class="category__img shadow">
-      <img src="img/random.jpg" alt="" loading="lazy" />
-    </div>
-    <div class="pt-1">Kuchnia 5</div>
-  </a>
+  <% }) %> <% } %>
 
   <a href="/categories" class="col text-center category__link">
     <div class="category__img shadow">

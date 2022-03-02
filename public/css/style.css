@@ -12,7 +12,7 @@
   color: #333520;
 }
 
-a {
+.body a {
   color: var(-bs-dark);
 }
 
