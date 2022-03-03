@@ -12,11 +12,7 @@
   color: #333520;
 }
 
-.body a {
-  color: var(-bs-dark);
-}
-
-.main-logo {
+.body .main-logo {
   font-family: 'Lobster';
   font-size: 2.5rem;
   color: #40aee9;
@@ -24,17 +20,31 @@
   transition: 0.25s;
 }
 
-.main-logo:hover {
+.body .main-logo:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
-  color: #40aee9;
+  color: #1ac4e2;
 }
 
-.main-logo img {
+.body .main-logo img {
   border-radius: 300px;
   background: none;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+a {
+  color: #333520;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1ac4e2;
+}
+
+.language {
+  text-decoration: none;
+  color: #333520;
 }
 
 .category__link {
@@ -94,5 +104,18 @@
 .contact-right {
   max-width: 430px;
   max-height: 375px;
+}
+
+.btn-last:hover {
+  color: white;
+}
+
+.btn-random {
+  background-color: darkgrey;
+}
+
+.btn-random.btn-random:hover {
+  background-color: #434343;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

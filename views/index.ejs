@@ -18,10 +18,14 @@
       suscipit!
     </p>
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-      <a href="/last" class="btn btn-outline-secondary btn-lg px-4 me-md-2"
+      <a
+        href="/last"
+        class="btn btn-outline-secondary btn-lg px-4 me-md-2 btn-last"
         >Pokaż ostatni</a
       >
-      <a href="/random" class="btn btn-primary btn-dark btn-lg px-4 me-md-2"
+      <a
+        href="/random"
+        class="btn btn-outline-dark btn-lg px-4 me-md-2 btn-random"
         >Pokaż losowy</a
       >
     </div>
@@ -31,11 +35,14 @@
 <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 py-4">
   <% if(categories != '') { %> <% categories.forEach(function(category, index) {
   %>
-  <a href="/categories/" class="col text-center category__link">
+  <a
+    href="/categories/<%- category.name %>"
+    class="col text-center category__link"
+  >
     <div class="category__img shadow">
       <img
         src="img/<%- category.image %>"
-        alt="<%- category.name_pl %>"
+        alt="<%- category.name %>"
         loading="lazy"
       />
     </div>
@@ -90,8 +97,26 @@
     </a>
   </div>
 </section>
+<section class="px-2 py-5 my-5 text-center" id="info">
+  <h1 class="display-5 fw-bold mt-5">Informacje o nas</h1>
+  <div class="col-lg-8 mx-auto pb-6 pt-4">
+    Meble na wymiar prowadzony jest prze Zakład Stolarki - Usłógi
+    Ogólno-Budowlane. Firma powstałą w 1988 roku by zamiłowaniem i pasją tworzyć
+    meble. Przez te kilkanaście lat wiele się zmieniło. Obecnie stawiamy na
+    funkcjonalne i proste projekty, które nie przytłoczą naszych mieszkań, biur
+    czy instytucji ale będą też swoistą dekoracją. Wachlarz naszych usług jest
+    szeroki. Od projektu do montażu tworzymy schody, drzwi, zabudowy wnęk oraz
+    meble kuchenne. <br />
+    Liczy się dla nas zadowolenie dlatego zapewniamy: - wysoką jakość usług w
+    rozsądnych cenach - profesjonalne doradztwo - własny transport - miłą
+    obsługę W naszych meblach proponujemy zarówno nowoczesne rozwiązania
+    techniczne jak i te tradycyjne, sprawdzone i stosowane od wielu lat.
+    Ponieważ stawiamy na zadowolenie to nasz klient decyduje o kolorystyce,
+    wzornictwie i stosowanych materiałach.
+  </div>
+</section>
 
-<section class="px-2 py-5 my-5 text-center">
+<section class="px-2 py-5 my-5 text-center" id="contact">
   <div class="row row-cols-auto g-1 g-lg-3 px-1">
     <img
       src="/img/contact-left.png"

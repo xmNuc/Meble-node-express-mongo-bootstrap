@@ -16,4 +16,4 @@ app.set('view engine', 'ejs');
 const routes = require('./server/routes/furnRoutes');
 app.use('/', routes);
 
-app.listen(port, () => console.log(`listening to port ${port}`));
+app.listen(port, () => console.log(`listening on port ${port}`));
