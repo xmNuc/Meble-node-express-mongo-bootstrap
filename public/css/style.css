@@ -1,5 +1,5 @@
 :root {
-  --bs-font-sans-serif: 'Rubik', 'Lobster', sans-serif;
+  --bs-font-sans-serif: 'Rubik', 'Lobster', 'Salsa', sans-serif;
 }
 
 .container-xxl {
@@ -8,14 +8,14 @@
 
 .body {
   background: #e4caf5;
-  background: linear-gradient(52deg, #f3d6f9 0%, #7f86f4 100%);
+  background: linear-gradient(52deg, rgba(243, 214, 249, 0.6) 0%, rgba(83, 146, 240, 0.6) 100%);
   color: #333520;
 }
 
 .body .main-logo {
-  font-family: 'Lobster';
+  font-family: 'Salsa';
   font-size: 2.5rem;
-  color: #40aee9;
+  color: #54bdcf;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
@@ -43,8 +43,17 @@ a:hover {
 }
 
 .language {
+  font-family: 'Rubik';
   text-decoration: none;
   color: #333520;
+}
+
+.link-sec-nuc {
+  color: #333520;
+}
+
+.link-sec-nuc:hover {
+  color: #1ac4e2;
 }
 
 .category__link {
@@ -117,5 +126,9 @@ a:hover {
 .btn-random.btn-random:hover {
   background-color: #434343;
   color: white;
+}
+
+.info-about-us {
+  color: #333520;
 }
 /*# sourceMappingURL=style.css.map */

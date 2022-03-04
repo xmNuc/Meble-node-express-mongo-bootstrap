@@ -1,4 +1,4 @@
-<div class="row flex-lg-row-reverse align-items-center g-6 py-4 mp-4">
+<div class="row flex-lg-row-reverse align-items-center g-6 py-4 mp-4 mb-5">
   <div class="col-12 col-lg-6">
     <img
       src="/img/blob.png"
@@ -10,13 +10,14 @@
     />
   </div>
   <div class="col-12 col-lg-6">
-    <h1 class="display-5 fw-bold mb-3">Meble dla Ciebie</h1>
+
+    <% mainArticule.forEach(function(mainArticule) { %>
+    <h1 class="display-5 fw-bold mb-3" id="<%= mainArticule.key %>""><%= mainArticule.name%></h1>
+    
+
     <p class="load">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
-      deserunt et doloremque nam odio, tempore corporis! Eos quia dolorem culpa
-      quam corrupti voluptatem distinctio temporibus impedit, laborum at iusto
-      suscipit!
-    </p>
+      <%= mainArticule.description%>
+    </p><% }); %>
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
       <a
         href="/last"
@@ -33,35 +34,25 @@
 </div>
 <!-- ------------ -->
 <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 py-4">
+
   <% if(categories != '') { %> <% categories.forEach(function(category, index) {
-  %>
-  <a href="/img/<%- category.name %>" class="col text-center category__link">
-    <div class="category__img shadow">
-      <img
-        src="img/<%- category.image %>"
-        alt="<%- category.name %>"
-        loading="lazy"
-      />
-    </div>
-    <div class="pt-1"><%- category.name %></div>
-  </a>
-  <% }) %> <% } %>
-
-  <div id="dynamic">
-    <a
-      href="#"
-      onclick="event.preventDefault()"
-      class="col text-center category__link"
-    >
+  %> 
+    <div class="col text-center category__link">
       <div class="category__img shadow">
-        <img src="img/random2.jpg" alt="View All Categories" loading="lazy" />
-      </div>
-      <div class="pt-1">Pokaż wszystkie</div>
-    </a>
-  </div>
-</div>
+       <div id="<%- category.key %>">
+        <img
+          src="img/<%- category.image %>"
+          alt="<%- category.name %>"
+          loading="lazy"
+        />
+      </div></div>
+      <div class="pt-1"><%- category.name %></div>
+    </div>
+    <% }) %> <% } %>
 
-<!-- <a
+  </div>
+
+  <!-- <a
   href="#"
   onclick="event.preventDefault()"
   class="col text-center category__link"
@@ -72,89 +63,90 @@
 
   <div class="pt-1">Pokaż wszystkie</div>
 </a> -->
-<!-- ----------- -->
-<section class="pb-4 pt-4">
-  <div class="d-flex mb-2 align-items-center">
-    <h2>Ostatnie realizacje</h2>
-    <a href="/explore-latest" class="ms-auto">Pokaż więcej</a>
-  </div>
+  <!-- ----------- -->
+  <section class="pb-4 pt-4">
+    <div class="d-flex mb-2 align-items-center">
+      <h2>Ostatnie realizacje</h2>
+      <a href="/explore-latest" class="ms-auto">Pokaż więcej</a>
+    </div>
 
-  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-    <a href="/articule/#" class="col text-center category__link">
-      <div class="category__img category__img--large shadow">
-        <img src="/img/random3.jpg" alt="Losowy artykuł" loading="lazy" />
-      </div>
-      <div class="pt-1">Kuchnia 22</div>
-    </a>
-    <a href="/articule/#" class="col text-center category__link">
-      <div class="category__img category__img--large shadow">
-        <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-      </div>
-      <div class="pt-1">Kuchnia 22</div>
-    </a>
-    <a href="/articule/#" class="col text-center category__link">
-      <div class="category__img category__img--large shadow">
-        <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-      </div>
-      <div class="pt-1">Kuchnia 22</div>
-    </a>
-    <a href="/articule/#" class="col text-center category__link">
-      <div class="category__img category__img--large shadow">
-        <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-      </div>
-      <div class="pt-1">Kuchnia 22</div>
-    </a>
-    <a href="/articule/#" class="col text-center category__link">
-      <div class="category__img category__img--large shadow">
-        <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-      </div>
-      <div class="pt-1">Kuchnia 22</div>
-    </a>
-  </div>
-</section>
-<section class="px-2 py-5 my-5 text-center" id="info">
-  <h1 class="display-5 fw-bold mt-5">Informacje o nas</h1>
-  <div class="col-lg-8 mx-auto pb-6 pt-4">
-    Meble na wymiar prowadzony jest prze Zakład Stolarki - Usłógi
-    Ogólno-Budowlane. Firma powstałą w 1988 roku by zamiłowaniem i pasją tworzyć
-    meble. Przez te kilkanaście lat wiele się zmieniło. Obecnie stawiamy na
-    funkcjonalne i proste projekty, które nie przytłoczą naszych mieszkań, biur
-    czy instytucji ale będą też swoistą dekoracją. Wachlarz naszych usług jest
-    szeroki. Od projektu do montażu tworzymy schody, drzwi, zabudowy wnęk oraz
-    meble kuchenne. <br />
-    Liczy się dla nas zadowolenie dlatego zapewniamy: - wysoką jakość usług w
-    rozsądnych cenach - profesjonalne doradztwo - własny transport - miłą
-    obsługę W naszych meblach proponujemy zarówno nowoczesne rozwiązania
-    techniczne jak i te tradycyjne, sprawdzone i stosowane od wielu lat.
-    Ponieważ stawiamy na zadowolenie to nasz klient decyduje o kolorystyce,
-    wzornictwie i stosowanych materiałach.
-  </div>
-</section>
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <a href="/articule/#" class="col text-center category__link">
+        <div class="category__img category__img--large shadow">
+          <img src="/img/random3.jpg" alt="Losowy artykuł" loading="lazy" />
+        </div>
+        <div class="pt-1">Kuchnia 22</div>
+      </a>
+      <a href="/articule/#" class="col text-center category__link">
+        <div class="category__img category__img--large shadow">
+          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
+        </div>
+        <div class="pt-1">Kuchnia 22</div>
+      </a>
+      <a href="/articule/#" class="col text-center category__link">
+        <div class="category__img category__img--large shadow">
+          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
+        </div>
+        <div class="pt-1">Kuchnia 22</div>
+      </a>
+      <a href="/articule/#" class="col text-center category__link">
+        <div class="category__img category__img--large shadow">
+          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
+        </div>
+        <div class="pt-1">Kuchnia 22</div>
+      </a>
+      <a href="/articule/#" class="col text-center category__link">
+        <div class="category__img category__img--large shadow">
+          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
+        </div>
+        <div class="pt-1">Kuchnia 22</div>
+      </a>
+    </div>
+  </section>
+  <section class="px-2 py-5 my-5 text-center" id="info">
+    <h1 class="display-5 fw-bold mt-5">Informacje o nas</h1>
+    <div class="col-lg-8 mx-auto pb-6 pt-4 info-about-us">
+      Meble na wymiar prowadzony jest prze Zakład Stolarki - Usłógi
+      Ogólno-Budowlane. Firma powstałą w 1988 roku by zamiłowaniem i pasją
+      tworzyć meble. Przez te kilkanaście lat wiele się zmieniło. Obecnie
+      stawiamy na funkcjonalne i proste projekty, które nie przytłoczą naszych
+      mieszkań, biur czy instytucji ale będą też swoistą dekoracją. Wachlarz
+      naszych usług jest szeroki. Od projektu do montażu tworzymy schody, drzwi,
+      zabudowy wnęk oraz meble kuchenne. <br />
+      Liczy się dla nas zadowolenie dlatego zapewniamy: - wysoką jakość usług w
+      rozsądnych cenach - profesjonalne doradztwo - własny transport - miłą
+      obsługę W naszych meblach proponujemy zarówno nowoczesne rozwiązania
+      techniczne jak i te tradycyjne, sprawdzone i stosowane od wielu lat.
+      Ponieważ stawiamy na zadowolenie to nasz klient decyduje o kolorystyce,
+      wzornictwie i stosowanych materiałach.
+    </div>
+  </section>
 
-<section class="px-2 py-5 my-5 text-center" id="contact">
-  <div class="row row-cols-auto g-1 g-lg-3 px-1">
-    <img
-      src="/img/contact-left.png"
-      alt="Skontaktuj się z nami"
-      class="d-block mx-auto mb-4 img-fluid contact-left"
-    />
-    <img
-      src="/img/contact-center.png"
-      alt="Skontaktuj się z nami"
-      class="d-block mx-auto mb-4 img-fluid contact-center"
-    />
-    <img
-      src="/img/contact-right.png"
-      alt="Skontaktuj się z nami"
-      class="d-block mx-auto mb-4 img-fluid contact-right"
-    />
-  </div>
-  <h1 class="display-5 fw-bold mt-5">Skontaktuj się z nami</h1>
-  <div class="col-lg-6 mx-auto">
-    <p class="lead mb-5">
-      biuro@meblenawymiar.us
-      <br />
-      Telefon: 600-981-563
-    </p>
-  </div>
-</section>
+  <section class="px-2 py-5 my-5 text-center" id="contact">
+    <div class="row row-cols-auto g-1 g-lg-3 px-1">
+      <img
+        src="/img/contact-left.png"
+        alt="Skontaktuj się z nami"
+        class="d-block mx-auto mb-4 img-fluid contact-left"
+      />
+      <img
+        src="/img/contact-center.png"
+        alt="Skontaktuj się z nami"
+        class="d-block mx-auto mb-4 img-fluid contact-center"
+      />
+      <img
+        src="/img/contact-right.png"
+        alt="Skontaktuj się z nami"
+        class="d-block mx-auto mb-4 img-fluid contact-right"
+      />
+    </div>
+    <h1 class="display-5 fw-bold mt-5">Skontaktuj się z nami</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-5">
+        biuro@meblenawymiar.us
+        <br />
+        Telefon: 600-981-563
+      </p>
+    </div>
+  </section>
+</div>

@@ -1,5 +1,5 @@
 :root {
-  --bs-font-sans-serif: 'Rubik', 'Lobster', sans-serif;
+  --bs-font-sans-serif: 'Rubik', 'Lobster', 'Salsa', sans-serif;
 }
 
 .container-xxl {
@@ -8,8 +8,8 @@
 
 $bg-color: linear-gradient(
   52deg,
-  rgba(243, 214, 249, 1) 0%,
-  rgba(127, 134, 244, 1) 100%
+  rgba(243, 214, 249, 0.6) 0%,
+  rgba(83, 146, 240, 0.6) 100%
 );
 
 $font-color: rgb(51, 53, 32);
@@ -23,9 +23,9 @@ $hover-color: rgb(26, 196, 226);
   // background-attachment: fixed;
   // background-size: cover;
   & .main-logo {
-    font-family: 'Lobster';
+    font-family: 'Salsa';
     font-size: 2.5rem;
-    color: rgb(64, 174, 233);
+    color: rgb(84, 189, 207);
     transition: 0.25s;
     &:hover {
       transform: scale(1.02);
@@ -47,8 +47,16 @@ a:hover {
 }
 
 .language {
+  font-family: 'Rubik';
   text-decoration: none;
   color: $font-color;
+}
+
+.link-sec-nuc {
+  color: $font-color;
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 .category__link {
@@ -105,4 +113,8 @@ a:hover {
     background-color: rgb(67, 67, 67);
     color: white;
   }
+}
+
+.info-about-us {
+  color: $font-color;
 }
