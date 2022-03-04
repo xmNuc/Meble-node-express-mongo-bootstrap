@@ -35,10 +35,7 @@
 <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 py-4">
   <% if(categories != '') { %> <% categories.forEach(function(category, index) {
   %>
-  <a
-    href="/categories/<%- category.name %>"
-    class="col text-center category__link"
-  >
+  <a href="/img/<%- category.name %>" class="col text-center category__link">
     <div class="category__img shadow">
       <img
         src="img/<%- category.image %>"
@@ -50,13 +47,31 @@
   </a>
   <% }) %> <% } %>
 
-  <a href="/categories" class="col text-center category__link">
-    <div class="category__img shadow">
-      <img src="img/random2.jpg" alt="View All Categories" loading="lazy" />
-    </div>
-    <div class="pt-1">Pokaż wszystkie</div>
-  </a>
+  <div id="dynamic">
+    <a
+      href="#"
+      onclick="event.preventDefault()"
+      class="col text-center category__link"
+    >
+      <div class="category__img shadow">
+        <img src="img/random2.jpg" alt="View All Categories" loading="lazy" />
+      </div>
+      <div class="pt-1">Pokaż wszystkie</div>
+    </a>
+  </div>
 </div>
+
+<!-- <a
+  href="#"
+  onclick="event.preventDefault()"
+  class="col text-center category__link"
+>
+  <div class="category__img shadow">
+    <img src="img/random2.jpg" alt="View All Categories" loading="lazy" />
+  </div>
+
+  <div class="pt-1">Pokaż wszystkie</div>
+</a> -->
 <!-- ----------- -->
 <section class="pb-4 pt-4">
   <div class="d-flex mb-2 align-items-center">
