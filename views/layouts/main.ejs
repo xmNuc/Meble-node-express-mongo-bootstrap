@@ -30,16 +30,20 @@
       <header
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
       >
+        <% mainArticule.forEach(function(mainArticule).filter((e) => e.key ===
+        'menu_logo_name') { %>
         <a
           href="/"
           class="d-flex align-items-center col-md-4 mb-2 mb-md-0 text-decoration-none main-logo"
+          id="<%= mainArticule.key%>"
           ><img
             src="/img/logo.png"
             width="120"
             height="85"
             alt="Meble na wymiar"
-          />Meble na wymiar
+          />Meble na wymiar<%= mainArticule.description%>
         </a>
+        <% }); %>
         <ul
           class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5"
         >
@@ -53,7 +57,8 @@
             <a href="#contact" class="nav-link px-2 link-sec-nuc">Kontakt</a>
           </li>
         </ul>
-        <div class="language fs-5">
+
+        <div class="language fs-5 px-2">
           <a href="/pl" class="lang-pl">PL</a> /
           <a href="/en" class="lang-en">EN</a>
         </div>

@@ -63,7 +63,7 @@ exports.homepage = async (req, res) => {
 
     const mainArticule = language === 'en' ? mainArticuleEn : mainArticulePl;
 
-    console.log(mainArticule);
+    // console.log(mainArticule);
 
     // console.log(
     //   await (
