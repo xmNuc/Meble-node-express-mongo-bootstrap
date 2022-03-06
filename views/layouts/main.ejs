@@ -29,49 +29,35 @@
     <div class="container-xxl px-md-5 bg-white shadow-fg">
       <header
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+        id="header-top"
       >
         <% menuLogoName.forEach(function(menuLogoName) { %>
         <a
-          href="/"
+          href="#header-top"
           class="d-flex align-items-center col-md-4 mb-2 mb-md-0 text-decoration-none main-logo"
           id="<%= menuLogoName.key%>"
-          ><img
-            src="/img/logo.png"
-            width="120"
-            height="85"
-            alt="Meble na wymiar"
-          /><%= menuLogoName.name%>
+          ><img src="/img/logo.png" width="120" height="85" alt="Meble na wymiar" /><%=
+          menuLogoName.name%>
         </a>
         <% }); %>
-        <ul
-          class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5"
-        >
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5">
           <li>
             <% menuMainPage.forEach(function(menuMainPage) { %>
-            <a
-              href="/"
-              class="nav-link px-2 link-sec-nuc"
-              id="<%= menuMainPage.key%>"
+            <a href="#header-top" class="nav-link px-2 link-sec-nuc" id="<%= menuMainPage.key%>"
               ><%= menuMainPage.name%></a
             >
             <% }); %>
           </li>
           <li>
             <% menuMainAbout.forEach(function(menuMainAbout) { %>
-            <a
-              href="#info"
-              class="nav-link px-2 link-sec-nuc"
-              id="<%= menuMainAbout.key %>"
+            <a href="#info" class="nav-link px-2 link-sec-nuc" id="<%= menuMainAbout.key %>"
               ><%= menuMainAbout.name %></a
             >
             <% }); %>
           </li>
           <li>
             <% menuMainContact.forEach(function(menuMainContact) { %>
-            <a
-              href="#contact"
-              class="nav-link px-2 link-sec-nuc"
-              id="<%= menuMainContact.name %>"
+            <a href="#contact" class="nav-link px-2 link-sec-nuc" id="<%= menuMainContact.name %>"
               ><%= menuMainContact.name %></a
             >
             <% }); %>
