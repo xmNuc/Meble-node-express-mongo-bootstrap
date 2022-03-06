@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be422"
+  },
+  "type": "category",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "image": "kitchen.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "kitchen"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be423"
+  },
+  "type": "category",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "image": "stairs.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "stairs"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be424"
+  },
+  "type": "category",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "image": "office.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "office"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be425"
+  },
+  "type": "category",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "image": "interior.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "interior"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be426"
+  },
+  "type": "category",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "image": "wardrobes.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "wardrobes"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be427"
+  },
+  "type": "category",
+  "name_en": "Show All",
+  "name_pl": "Pokaż wszystkie",
+  "image": "kitchen.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "all"
+},{
+  "_id": {
+    "$oid": "62227c95827bd0137a79d946"
+  },
+  "type": "main_articule",
+  "name_en": "Furniture for you",
+  "name_pl": "Meble dla Ciebie",
+  "image": "",
+  "description_en": "We create custom-made furniture according to specific needs for individual clients, companies and institutions.Our goal is comfort, functionality and practicality.",
+  "description_pl": "Tworzymy meble na zamówienie według określonych potrzeb dla klientów indywidualnych, firm i instytucji. Liczy się dla nas wygoda, funkcjonalność, praktyczność.",
+  "key": "main_art_description",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6223e86ead93061017bf7c1e"
+  },
+  "type": "menu-logo-name",
+  "name_en": "Custom Furniture",
+  "name_pl": "Meble na wymiar",
+  "key": "menu_logo_name"
+},{
+  "_id": {
+    "$oid": "6223f605ad93061017bf7c1f"
+  },
+  "type": "menu-main-page",
+  "key": "menu-main-page",
+  "name_en": "Main page",
+  "name_pl": "Strona główna"
+}]

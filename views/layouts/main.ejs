@@ -30,31 +30,51 @@
       <header
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
       >
-        <% mainArticule.forEach(function(mainArticule).filter((e) => e.key ===
-        'menu_logo_name') { %>
+        <% menuLogoName.forEach(function(menuLogoName) { %>
         <a
           href="/"
           class="d-flex align-items-center col-md-4 mb-2 mb-md-0 text-decoration-none main-logo"
-          id="<%= mainArticule.key%>"
+          id="<%= menuLogoName.key%>"
           ><img
             src="/img/logo.png"
             width="120"
             height="85"
             alt="Meble na wymiar"
-          />Meble na wymiar<%= mainArticule.description%>
+          /><%= menuLogoName.name%>
         </a>
         <% }); %>
         <ul
           class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5"
         >
           <li>
-            <a href="/" class="nav-link px-2 link-sec-nuc">Strona główna</a>
+            <% menuMainPage.forEach(function(menuMainPage) { %>
+            <a
+              href="/"
+              class="nav-link px-2 link-sec-nuc"
+              id="<%= menuMainPage.key%>"
+              ><%= menuMainPage.name%></a
+            >
+            <% }); %>
           </li>
           <li>
-            <a href="#info" class="nav-link px-2 link-sec-nuc">O nas</a>
+            <% menuMainAbout.forEach(function(menuMainAbout) { %>
+            <a
+              href="#info"
+              class="nav-link px-2 link-sec-nuc"
+              id="<%= menuMainAbout.key %>"
+              ><%= menuMainAbout.name %></a
+            >
+            <% }); %>
           </li>
           <li>
-            <a href="#contact" class="nav-link px-2 link-sec-nuc">Kontakt</a>
+            <% menuMainContact.forEach(function(menuMainContact) { %>
+            <a
+              href="#contact"
+              class="nav-link px-2 link-sec-nuc"
+              id="<%= menuMainContact.name %>"
+              ><%= menuMainContact.name %></a
+            >
+            <% }); %>
           </li>
         </ul>
 
@@ -64,13 +84,15 @@
         </div>
         <div class="col-md-3 text-end">
           <form method="POST" action="/search">
+            <% menuMainSearch.forEach(function(menuMainSearch) { %>
             <input
               type="search"
               name="searchTerm"
               class="form-control"
-              placeholder="Search..."
+              placeholder="<%= menuMainSearch.name %>"
               aria-label="Search"
             />
+            <% }); %>
           </form>
         </div>
       </header>
