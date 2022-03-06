@@ -69,6 +69,7 @@ a:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .category__img {

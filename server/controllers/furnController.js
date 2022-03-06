@@ -1,5 +1,6 @@
 require('../models/db');
 const Category = require('../models/Category');
+const Photos = require('../models/Photos');
 
 let language = 'pl';
 console.log(language);
@@ -38,7 +39,39 @@ exports.homepage = async (req, res) => {
     const menuMainContact = dbRecords.filter((e) => e.type === 'menu-main-contact');
     const menuMainSearch = dbRecords.filter((e) => e.type === 'menu-main-search');
     const mainArticule = dbRecords.filter((e) => e.type === 'main_articule');
+    const mainArticuleLast = dbRecords.filter((e) => e.type === 'main-articule-last');
+    const mainArticuleRandom = dbRecords.filter((e) => e.type === 'main-articule-random');
     const categories = dbRecords.filter((e) => e.type === 'category');
+
+    const photosEn = await (
+      await Photos.find({})
+    ).map(function (el) {
+      return {
+        id: el.id,
+        type: el.type,
+        key: el.key,
+        name: el.name_en,
+        description: el.description_en,
+        image: el.image,
+        thumb: el.thumb,
+      };
+    });
+    const photosPl = await (
+      await Photos.find({})
+    ).map(function (el) {
+      return {
+        id: el.id,
+        type: el.type,
+        key: el.key,
+        name: el.name_pl,
+        description: el.description_pl,
+        image: el.image,
+        thumb: el.thumb,
+      };
+    });
+    const dbPhotos = language === 'en' ? photosEn : photosPl;
+
+    // console.log(dbPhotos);
 
     // console.log(
     //   await (
@@ -65,8 +98,11 @@ exports.homepage = async (req, res) => {
       menuMainAbout,
       menuMainContact,
       menuMainSearch,
-      categories,
       mainArticule,
+      mainArticuleLast,
+      mainArticuleRandom,
+      categories,
+      dbPhotos,
     });
   } catch (error) {
     res.status(500).send({ message: error.message || 'There is an Error' });
@@ -86,17 +122,16 @@ exports.homepage_en = async (req, res) => {
 
 // async function insertCategoryData() {
 //   try {
-//     await Category.insertMany([
+//     await Photos.insertMany([
 //       {
-//         key: 'main_sci_description',
-//         type: 'gallery_kitchen',
-//         name_en: 'Super kitchen',
-//         name_pl: 'Opis',
-//         description_en:
-//           'data here',
-//         description_pl:
-//           'data here',
-//         image: '',
+//         type: 'stairs',
+//         key: 'stairs-1',
+//         name_en: 'Stairs',
+//         name_pl: 'Schody',
+//         description_en: 'Wooden stairs with handrails in a single-family house',
+//         description_pl: 'Schody drewniane wraz z poręczami w domku jednorodzinnym ',
+//         image: 'stairs3.jpg',
+//         thumb: 'stairs3.jpg',
 //       },
 //     ]);
 //   } catch (error) {

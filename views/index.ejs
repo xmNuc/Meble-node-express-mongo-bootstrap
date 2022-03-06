@@ -19,16 +19,19 @@
       <%= mainArticule.description%>
     </p><% }); %>
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      <% mainArticuleLast.forEach(function(mainArticuleLast) { %>
       <a
-        href="/last"
+        href="#last"
         class="btn btn-outline-secondary btn-lg px-4 me-md-2 btn-last"
-        >Pokaż ostatni</a
+        ><%= mainArticuleLast.name%></a
       >
+      <% }); %>
+      <% mainArticuleRandom.forEach(function(mainArticuleRandom) { %>
       <a
-        href="/random"
-        class="btn btn-outline-dark btn-lg px-4 me-md-2 btn-random"
-        >Pokaż losowy</a
-      >
+        href="#random"
+        class="btn btn-outline-dark btn-lg px-4 me-md-2 btn-random" id="<%= mainArticuleRandom.key%>"
+        ><%= mainArticuleRandom.name%></a
+      ><% }); %>
     </div>
   </div>
 </div>

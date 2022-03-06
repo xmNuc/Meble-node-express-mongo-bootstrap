@@ -6,11 +6,7 @@
   max-width: 1600px;
 }
 
-$bg-color: linear-gradient(
-  52deg,
-  rgba(243, 214, 249, 0.6) 0%,
-  rgba(83, 146, 240, 0.6) 100%
-);
+$bg-color: linear-gradient(52deg, rgba(243, 214, 249, 0.6) 0%, rgba(83, 146, 240, 0.6) 100%);
 
 $font-color: rgb(51, 53, 32);
 $hover-color: rgb(26, 196, 226);
@@ -68,6 +64,7 @@ a:hover {
   &:hover {
     transform: scale(1.1);
     text-decoration: none;
+    cursor: pointer;
   }
 }
 
