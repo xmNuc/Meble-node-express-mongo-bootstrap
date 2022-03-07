@@ -3,7 +3,8 @@ const Category = require('../models/Category');
 const Photos = require('../models/Photos');
 
 let language = 'pl';
-console.log(language);
+// console.log(language);
+let photosFromDb = [];
 
 exports.homepage = async (req, res) => {
   try {
@@ -43,33 +44,35 @@ exports.homepage = async (req, res) => {
     const mainArticuleRandom = dbRecords.filter((e) => e.type === 'main-articule-random');
     const categories = dbRecords.filter((e) => e.type === 'category');
 
-    const photosEn = await (
-      await Photos.find({})
-    ).map(function (el) {
-      return {
-        id: el.id,
-        type: el.type,
-        key: el.key,
-        name: el.name_en,
-        description: el.description_en,
-        image: el.image,
-        thumb: el.thumb,
-      };
-    });
-    const photosPl = await (
-      await Photos.find({})
-    ).map(function (el) {
-      return {
-        id: el.id,
-        type: el.type,
-        key: el.key,
-        name: el.name_pl,
-        description: el.description_pl,
-        image: el.image,
-        thumb: el.thumb,
-      };
-    });
-    const dbPhotos = language === 'en' ? photosEn : photosPl;
+    // const photosEn = await (
+    //   await Photos.find({})
+    // ).map(function (el) {
+    //   return {
+    //     id: el.id,
+    //     type: el.type,
+    //     key: el.key,
+    //     name: el.name_en,
+    //     description: el.description_en,
+    //     image: el.image,
+    //     thumb: el.thumb,
+    //   };
+    // });
+    // const photosPl = await (
+    //   await Photos.find({})
+    // ).map(function (el) {
+    //   return {
+    //     id: el.id,
+    //     type: el.type,
+    //     key: el.key,
+    //     name: el.name_pl,
+    //     description: el.description_pl,
+    //     image: el.image,
+    //     thumb: el.thumb,
+    //   };
+    // });
+    // const dbPhotos = language === 'en' ? photosEn : photosPl;
+    // const frontPhotos = dbPhotos.filter((e) => e.type === 'stairs');
+    // frontPhotos = photosFromDb;
 
     // console.log(dbPhotos);
 
@@ -102,7 +105,7 @@ exports.homepage = async (req, res) => {
       mainArticuleLast,
       mainArticuleRandom,
       categories,
-      dbPhotos,
+      // frontPhotos,
     });
   } catch (error) {
     res.status(500).send({ message: error.message || 'There is an Error' });

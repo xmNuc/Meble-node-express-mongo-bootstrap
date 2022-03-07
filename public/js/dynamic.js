@@ -1,31 +1,10 @@
-
-
-
-
-
+import {data} from './data.js'
 
 document.getElementById('all').addEventListener('click', function () {
   lightGallery(document.getElementById('all'), {
     dynamic: true,
     dynamicEl: [
-      {
-        src: '/img/random2.jpg',
-        thumb: '/img/random2.jpg',
-        subHtml:
-          '<h4>Name place here</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
-      {
-        src: '/img/random3.jpg',
-        thumb: '/img/random3.jpg',
-        subHtml:
-          '<h4>Name here</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
-      {
-        src: '/img/random4.jpg',
-        thumb: '/img/random4.jpg',
-        subHtml:
-          '<h4>Name placer</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
+data
     ],
   });
 });
@@ -33,26 +12,7 @@ document.getElementById('all').addEventListener('click', function () {
 document.getElementById('kitchen').addEventListener('click', function () {
   lightGallery(document.getElementById('kitchen'), {
     dynamic: true,
-    dynamicEl: [
-      {
-        src: '/uploads/photos/stairs1.jpg',
-        thumb: 'uploads/thumb/stairs1.jpg',
-        subHtml:
-          '<h4>Name place here</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
-      {
-        src: '/img/random3.jpg',
-        thumb: '/img/random3.jpg',
-        subHtml:
-          '<h4>Name here</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
-      {
-        src: '/img/random4.jpg',
-        thumb: '/img/random4.jpg',
-        subHtml:
-          '<h4>Name placer</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
-    ],
+    dynamicEl: data,
   });
 });
 document.getElementById('stairs').addEventListener('click', function () {
@@ -60,22 +20,10 @@ document.getElementById('stairs').addEventListener('click', function () {
     dynamic: true,
     dynamicEl: [
       {
-        src: '/img/random2.jpg',
-        thumb: '/img/random2.jpg',
+        src: '/uploads/photos/stairs1.jpg',
+        thumb: '',
         subHtml:
-          '<h4>Name place here</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
-      {
-        src: '/img/random3.jpg',
-        thumb: '/img/random3.jpg',
-        subHtml:
-          '<h4>Name here</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
-      },
-      {
-        src: '/img/random4.jpg',
-        thumb: '/img/random4.jpg',
-        subHtml:
-          '<h4>Name placer</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolores explicabo, culpa, molestiae minima quam eius, ad mollitia tempore harum dolore sint minus tempora voluptate vel ipsam commodi laboriosam!</p>',
+          '',
       },
     ],
   });
