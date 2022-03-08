@@ -1,18 +1,16 @@
-import {data} from './data.js'
+// import {kitchen, stairs, all} from './data.js'
 
 document.getElementById('all').addEventListener('click', function () {
   lightGallery(document.getElementById('all'), {
     dynamic: true,
-    dynamicEl: [
-data
-    ],
+    dynamicEl: all()
   });
 });
 
 document.getElementById('kitchen').addEventListener('click', function () {
   lightGallery(document.getElementById('kitchen'), {
     dynamic: true,
-    dynamicEl: data,
+    dynamicEl: kitchen()
   });
 });
 document.getElementById('stairs').addEventListener('click', function () {
@@ -103,3 +101,6 @@ document.getElementById('wardrobes').addEventListener('click', function () {
     ],
   });
 });
+
+
+const fethedData = fetch('http://localhost:3000/data').then(response => {return response.json()}).then(data=> console.log(data)).catch(err => console.log(err))
