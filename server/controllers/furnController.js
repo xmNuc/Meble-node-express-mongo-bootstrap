@@ -4,7 +4,8 @@ const Photos = require('../models/Photos');
 
 let language = 'pl';
 // console.log(language);
-let photosFromDb = [];
+let dta = [];
+console.log(dta);
 
 exports.homepage = async (req, res) => {
   try {
@@ -72,9 +73,10 @@ exports.homepage = async (req, res) => {
     // });
     // const dbPhotos = language === 'en' ? photosEn : photosPl;
     // const frontPhotos = dbPhotos.filter((e) => e.type === 'stairs');
-    // frontPhotos = photosFromDb;
+    // dta = frontPhotos;
 
     // console.log(dbPhotos);
+    // console.log(photosFromDb);
 
     // console.log(
     //   await (
@@ -105,7 +107,6 @@ exports.homepage = async (req, res) => {
       mainArticuleLast,
       mainArticuleRandom,
       categories,
-      // frontPhotos,
     });
   } catch (error) {
     res.status(500).send({ message: error.message || 'There is an Error' });
@@ -119,6 +120,43 @@ exports.homepage_pl = async (req, res) => {
 exports.homepage_en = async (req, res) => {
   language = 'en';
   res.redirect('/');
+};
+
+exports.photoData = async (req, res) => {
+  try {
+    const photosEn = await (
+      await Photos.find({})
+    ).map(function (el) {
+      return {
+        id: el.id,
+        type: el.type,
+        key: el.key,
+        name: el.name_en,
+        description: el.description_en,
+        image: el.image,
+        thumb: el.thumb,
+      };
+    });
+    const photosPl = await (
+      await Photos.find({})
+    ).map(function (el) {
+      return {
+        id: el.id,
+        type: el.type,
+        key: el.key,
+        name: el.name_pl,
+        description: el.description_pl,
+        image: el.image,
+        thumb: el.thumb,
+      };
+    });
+    const dbPhotos = language === 'en' ? photosEn : photosPl;
+    const frontPhotos = dbPhotos.filter((e) => e.type === 'stairs');
+
+    res.send({ frontPhotos });
+  } catch (error) {
+    res.status(500).send({ message: error.message || 'There is an Error' });
+  }
 };
 
 // // insert data

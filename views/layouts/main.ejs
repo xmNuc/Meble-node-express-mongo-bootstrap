@@ -68,19 +68,6 @@
           <a href="/pl" class="lang-pl">PL</a> /
           <a href="/en" class="lang-en">EN</a>
         </div>
-        <div class="col-md-3 text-end">
-          <form method="POST" action="/search">
-            <% menuMainSearch.forEach(function(menuMainSearch) { %>
-            <input
-              type="search"
-              name="searchTerm"
-              class="form-control"
-              placeholder="<%= menuMainSearch.name %>"
-              aria-label="Search"
-            />
-            <% }); %>
-          </form>
-        </div>
       </header>
 
       <main><%- body %></main>
