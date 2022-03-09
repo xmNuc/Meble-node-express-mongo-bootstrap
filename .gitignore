@@ -2,3 +2,4 @@
 .env
 server/controllers/furnController copy.js
 /public/uploads
+/old

@@ -4,8 +4,6 @@ const Photos = require('../models/Photos');
 
 let language = 'pl';
 // console.log(language);
-let dta = [];
-console.log(dta);
 
 exports.homepage = async (req, res) => {
   try {
@@ -45,57 +43,6 @@ exports.homepage = async (req, res) => {
     const mainArticuleRandom = dbRecords.filter((e) => e.type === 'main-articule-random');
     const categories = dbRecords.filter((e) => e.type === 'category');
 
-    // const photosEn = await (
-    //   await Photos.find({})
-    // ).map(function (el) {
-    //   return {
-    //     id: el.id,
-    //     type: el.type,
-    //     key: el.key,
-    //     name: el.name_en,
-    //     description: el.description_en,
-    //     image: el.image,
-    //     thumb: el.thumb,
-    //   };
-    // });
-    // const photosPl = await (
-    //   await Photos.find({})
-    // ).map(function (el) {
-    //   return {
-    //     id: el.id,
-    //     type: el.type,
-    //     key: el.key,
-    //     name: el.name_pl,
-    //     description: el.description_pl,
-    //     image: el.image,
-    //     thumb: el.thumb,
-    //   };
-    // });
-    // const dbPhotos = language === 'en' ? photosEn : photosPl;
-    // const frontPhotos = dbPhotos.filter((e) => e.type === 'stairs');
-    // dta = frontPhotos;
-
-    // console.log(dbPhotos);
-    // console.log(photosFromDb);
-
-    // console.log(
-    //   await (
-    //     await Category.find({})
-    //   )
-    //     .map(function (el) {
-    //       return {
-    //         key: el.key,
-    //         type: el.type,
-    //         name_en: el.name_en,
-    //         name_pl: el.name_pl,
-    //         image: el.image,
-    //         description_en: el.description_en,
-    //         description_pl: el.description_pl,
-    //       };
-    //     })
-    //     .filter((e) => e.type === 'main_articule')
-    // );
-
     res.render('index', {
       title: 'Meble na wymiar',
       menuLogoName,
@@ -132,8 +79,8 @@ exports.photoData = async (req, res) => {
         type: el.type,
         key: el.key,
         name: el.name_en,
-        description: el.description_en,
-        image: el.image,
+        subHtml: el.description_en,
+        src: el.image,
         thumb: el.thumb,
       };
     });
@@ -145,34 +92,33 @@ exports.photoData = async (req, res) => {
         type: el.type,
         key: el.key,
         name: el.name_pl,
-        description: el.description_pl,
-        image: el.image,
+        subHtml: el.description_pl,
+        src: el.image,
         thumb: el.thumb,
       };
     });
     const dbPhotos = language === 'en' ? photosEn : photosPl;
-    const frontPhotos = dbPhotos.filter((e) => e.type === 'stairs');
 
-    res.send({ frontPhotos });
+    res.send(JSON.stringify(dbPhotos));
   } catch (error) {
     res.status(500).send({ message: error.message || 'There is an Error' });
   }
 };
 
-// // insert data
+// insert data
 
 // async function insertCategoryData() {
 //   try {
 //     await Photos.insertMany([
 //       {
-//         type: 'stairs',
-//         key: 'stairs-1',
-//         name_en: 'Stairs',
-//         name_pl: 'Schody',
-//         description_en: 'Wooden stairs with handrails in a single-family house',
-//         description_pl: 'Schody drewniane wraz z poręczami w domku jednorodzinnym ',
-//         image: 'stairs3.jpg',
-//         thumb: 'stairs3.jpg',
+//         type: 'interior',
+//         key: 'interior',
+//         name_en: 'Interior design',
+//         name_pl: 'Zabudowa wnętrz',
+//         description_en: 'Wooden internal structures, walls and doors',
+//         description_pl: 'Drewniane konstrukcje wewnętrzne, ściany i drzwi',
+//         image: 'uploads/photos/interior/2.jpg',
+//         thumb: 'uploads/photos/interior/2t.jpg',
 //       },
 //     ]);
 //   } catch (error) {
