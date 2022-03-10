@@ -1,6 +1,7 @@
 require('../models/db');
 const Category = require('../models/Category');
 const Photos = require('../models/Photos');
+const fs = require('fs');
 
 let language = 'pl';
 // console.log(language);
@@ -43,34 +44,6 @@ exports.homepage = async (req, res) => {
     const mainArticuleRandom = dbRecords.filter((e) => e.type === 'main-articule-random');
     const categories = dbRecords.filter((e) => e.type === 'category');
 
-    res.render('index', {
-      title: 'Meble na wymiar',
-      menuLogoName,
-      menuMainPage,
-      menuMainAbout,
-      menuMainContact,
-      menuMainSearch,
-      mainArticule,
-      mainArticuleLast,
-      mainArticuleRandom,
-      categories,
-    });
-  } catch (error) {
-    res.status(500).send({ message: error.message || 'There is an Error' });
-  }
-};
-
-exports.homepage_pl = async (req, res) => {
-  language = 'pl';
-  res.redirect('/');
-};
-exports.homepage_en = async (req, res) => {
-  language = 'en';
-  res.redirect('/');
-};
-
-exports.photoData = async (req, res) => {
-  try {
     const photosEn = await (
       await Photos.find({})
     ).map(function (el) {
@@ -98,11 +71,40 @@ exports.photoData = async (req, res) => {
       };
     });
     const dbPhotos = language === 'en' ? photosEn : photosPl;
+    const dString = JSON.stringify(dbPhotos);
+    const destynation = 'public/js/data.js';
+    const write = () => {
+      fs.writeFile(destynation, dString, function (err) {
+        if (err) return console.log(err);
+        console.log('Data has been updated > data.js');
+      });
+    };
+    write();
 
-    res.send(JSON.stringify(dbPhotos));
+    res.render('index', {
+      title: 'Meble na wymiar',
+      menuLogoName,
+      menuMainPage,
+      menuMainAbout,
+      menuMainContact,
+      menuMainSearch,
+      mainArticule,
+      mainArticuleLast,
+      mainArticuleRandom,
+      categories,
+    });
   } catch (error) {
     res.status(500).send({ message: error.message || 'There is an Error' });
   }
+};
+
+exports.homepage_pl = async (req, res) => {
+  language = 'pl';
+  res.redirect('/');
+};
+exports.homepage_en = async (req, res) => {
+  language = 'en';
+  res.redirect('/');
 };
 
 // insert data

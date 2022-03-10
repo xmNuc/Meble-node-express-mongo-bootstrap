@@ -1,7 +1,7 @@
 
 const fetchData = async () => {
   try {
-      const response = await fetch('http://localhost:3000/data');
+      const response = await fetch('js/data.js');
        const data = await response.json();
 
       //  console.log(data);
