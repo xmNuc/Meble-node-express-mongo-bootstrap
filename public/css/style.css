@@ -7,6 +7,7 @@
 }
 
 .body {
+  margin: 0;
   background: #e4caf5;
   background: linear-gradient(52deg, rgba(243, 214, 249, 0.6) 0%, rgba(83, 146, 240, 0.6) 100%);
   color: #333520;
@@ -131,5 +132,26 @@ a:hover {
 
 .info-about-us {
   color: #333520;
+}
+
+.logo-img {
+  width: 120px;
+  height: 85px;
+}
+
+.nav-nuc {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.main-nuc {
+  margin-top: 8%;
 }
 /*# sourceMappingURL=style.css.map */

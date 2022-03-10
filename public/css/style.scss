@@ -12,6 +12,7 @@ $font-color: rgb(51, 53, 32);
 $hover-color: rgb(26, 196, 226);
 
 .body {
+  margin: 0;
   background: rgb(228, 202, 245);
   background: $bg-color;
   color: $font-color;
@@ -114,4 +115,20 @@ a:hover {
 
 .info-about-us {
   color: $font-color;
+}
+.logo-img {
+  width: 120px;
+  height: 85px;
+}
+
+.nav-nuc {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.main-nuc {
+  margin-top: 8%;
 }

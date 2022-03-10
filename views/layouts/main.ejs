@@ -25,25 +25,23 @@
     />
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
   </head>
-  <body class="body">
+  <body class="body" id="body-top">
     <div class="container-xxl px-md-5 bg-white shadow-fg">
       <header
-        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
-        id="header-top"
+        class="d-flex flex-wrap align-items-center justify-content-around py-1 mb-4 border-bottom fixed-top nav-nuc"
       >
         <% menuLogoName.forEach(function(menuLogoName) { %>
         <a
-          href="#header-top"
-          class="d-flex align-items-center col-md-4 mb-2 mb-md-0 text-decoration-none main-logo"
+          href="#body-top"
+          class="d-flex align-items-center col-xs-3 mb-1 mb-md-0 text-decoration-none main-logo"
           id="<%= menuLogoName.key%>"
-          ><img src="/img/logo.png" width="120" height="85" alt="Meble na wymiar" /><%=
-          menuLogoName.name%>
+          ><img src="/img/logo.png" class="logo-img" alt="Meble na wymiar" /><%= menuLogoName.name%>
         </a>
         <% }); %>
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5">
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-centermb-md-0 fs-5">
           <li>
             <% menuMainPage.forEach(function(menuMainPage) { %>
-            <a href="#header-top" class="nav-link px-2 link-sec-nuc" id="<%= menuMainPage.key%>"
+            <a href="#body-top" class="nav-link px-3 link-sec-nuc" id="<%= menuMainPage.key%>"
               ><%= menuMainPage.name%></a
             >
             <% }); %>
@@ -64,13 +62,12 @@
           </li>
         </ul>
 
-        <div class="language fs-5 px-2">
+        <div class="language fs-5 px-5">
           <a href="/pl" class="lang-pl">PL</a> /
           <a href="/en" class="lang-en">EN</a>
         </div>
       </header>
-
-      <main><%- body %></main>
+      <main class="main-nuc"><%- body %></main>
       <footer class="py-5 text-center">
         Created by NuC 2022 contact
         <a href="https://github.com/xmNuc">Guthub</a>
