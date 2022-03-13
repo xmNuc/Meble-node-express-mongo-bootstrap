@@ -4,7 +4,7 @@ const Photos = require('../models/Photos');
 const fs = require('fs');
 
 let language = 'pl';
-// console.log(language);
+console.log(language);
 
 exports.homepage = async (req, res) => {
   try {
@@ -43,6 +43,11 @@ exports.homepage = async (req, res) => {
     const mainArticuleLast = dbRecords.filter((e) => e.type === 'main-articule-last');
     const mainArticuleRandom = dbRecords.filter((e) => e.type === 'main-articule-random');
     const categories = dbRecords.filter((e) => e.type === 'category');
+    const informationAboutUs = dbRecords.filter((e) => e.type === 'information-about-us');
+    const contactUs = dbRecords.filter((e) => e.type === 'contact-us');
+    const contactUsPhone = dbRecords.filter((e) => e.type === 'contact-us-phone');
+
+    console.log(contactUs);
 
     const photosEn = await (
       await Photos.find({})
@@ -92,6 +97,9 @@ exports.homepage = async (req, res) => {
       mainArticuleLast,
       mainArticuleRandom,
       categories,
+      informationAboutUs,
+      contactUs,
+      contactUsPhone,
     });
   } catch (error) {
     res.status(500).send({ message: error.message || 'There is an Error' });

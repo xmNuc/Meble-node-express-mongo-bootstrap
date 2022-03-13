@@ -93,24 +93,16 @@
       </a>
     </div>
   </section>
+  <% informationAboutUs.forEach(function(informationAboutUs) { %>
   <section class="px-2 py-5 my-5 text-center" id="info">
-    <h1 class="display-5 fw-bold mt-5">Informacje o nas</h1>
+    
+    <h1 class="display-5 fw-bold mt-5"><%= informationAboutUs.name%></h1>
     <div class="col-lg-8 mx-auto pb-6 pt-4 info-about-us">
-      Meble na wymiar prowadzony jest prze Zakład Stolarki - Usługi
-      Ogólno-Budowlane. Firma powstałą w 1988 roku by zamiłowaniem i pasją
-      tworzyć meble. Przez te kilkanaście lat wiele się zmieniło. Obecnie
-      stawiamy na funkcjonalne i proste projekty, które nie przytłoczą naszych
-      mieszkań, biur czy instytucji ale będą też swoistą dekoracją. Wachlarz
-      naszych usług jest szeroki. Od projektu do montażu tworzymy schody, drzwi,
-      zabudowy wnęk oraz meble kuchenne. <br />
-      Liczy się dla nas zadowolenie dlatego zapewniamy: - wysoką jakość usług w
-      rozsądnych cenach - profesjonalne doradztwo - własny transport - miłą
-      obsługę W naszych meblach proponujemy zarówno nowoczesne rozwiązania
-      techniczne jak i te tradycyjne, sprawdzone i stosowane od wielu lat.
-      Ponieważ stawiamy na zadowolenie to nasz klient decyduje o kolorystyce,
-      wzornictwie i stosowanych materiałach.
+      <%= informationAboutUs.description %>
     </div>
+   
   </section>
+ <% }); %>
 
   <section class="px-2 py-5 my-5 text-center" id="contact">
     <div class="row col-12 row-cols g-1 g-lg-3 px-1">
@@ -130,13 +122,19 @@
         class="d-block mx-auto mb-4 img-fluid contact-right"
       />
     </div>
-    <h1 class="display-5 fw-bold mt-5">Skontaktuj się z nami</h1>
+    <% contactUs.forEach(function(contactUs) { %>
+    <h1 class="display-5 fw-bold mt-5"><%= contactUs.name%></h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-5">
-        biuro@meblenawymiar.us
+        <%= contactUs.description %>
+      <% }); %>   
         <br />
-        Telefon: 600-981-563
+        <% contactUsPhone.forEach(function(contactUsPhone) { %>
+        <%= contactUsPhone.name %>
+        <% }); %>  
       </p>
     </div>
+  
   </section>
+   
 </div>
