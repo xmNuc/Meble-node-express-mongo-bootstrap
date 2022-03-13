@@ -41,47 +41,8 @@
 
   </div>
 
-  <section class="pb-4 pt-4">
-    <div class="d-flex mb-2 align-items-center">
-      <h2>Ostatnie realizacje</h2>
-      <a href="/explore-latest" class="ms-auto">Pokaż więcej</a>
-    </div>
-
-    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-      <a href="/articule/#" class="col text-center category__link">
-        <div class="category__img category__img--large shadow">
-          <img src="/img/random3.jpg" alt="Losowy artykuł" loading="lazy" />
-        </div>
-        <div class="pt-1">Kuchnia 22</div>
-      </a>
-      <a href="/articule/#" class="col text-center category__link">
-        <div class="category__img category__img--large shadow">
-          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-        </div>
-        <div class="pt-1">Kuchnia 22</div>
-      </a>
-      <a href="/articule/#" class="col text-center category__link">
-        <div class="category__img category__img--large shadow">
-          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-        </div>
-        <div class="pt-1">Kuchnia 22</div>
-      </a>
-      <a href="/articule/#" class="col text-center category__link">
-        <div class="category__img category__img--large shadow">
-          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-        </div>
-        <div class="pt-1">Kuchnia 22</div>
-      </a>
-      <a href="/articule/#" class="col text-center category__link">
-        <div class="category__img category__img--large shadow">
-          <img src="/img/random4.jpg" alt="Losowy artykuł" loading="lazy" />
-        </div>
-        <div class="pt-1">Kuchnia 22</div>
-      </a>
-    </div>
-  </section>
   <% informationAboutUs.forEach(function(informationAboutUs) { %>
-  <section class="px-2 pt-5 mt-5 text-center" id="info">
+  <section class="px-0 pt-3 mt-3 text-center" id="info">
     <h1 class="display-5 fw-bold mt-5"><%= informationAboutUs.name%></h1>
     <div class="col-lg-8 mx-auto pb-1 pt-4 info-about-us">
       <%= informationAboutUs.description %>
@@ -89,7 +50,7 @@
   </section>
  <% }); %>
 
-  <section class="px-2 py-5 my-5 text-center" id="contact">
+  <section class="px-0 py-5 my-5 text-center" id="contact">
     <div class="row col-12 row-cols g-1 g-lg-3 px-1">
       <img
         src="/img/contact-left.png"
@@ -108,7 +69,7 @@
       />
     </div>
     <% contactUs.forEach(function(contactUs) { %>
-    <h1 class="display-5 fw-bold mt-5"><%= contactUs.name%></h1>
+    <h1 class="display-5 fw-bold pt-5 mt-5"><%= contactUs.name%></h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-5">
         <%= contactUs.description %>
@@ -125,12 +86,15 @@
     <div class="mapouter">
       <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=ul.%20Mostowa%201%2087-400%20Golub-Dobrzy%C5%84&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
     </div>
-    <h1 class="display-5 fw-bold pt-4">Adres</h1>
+    <% address.forEach(function(address) { %>
+    <h1 class="display-5 fw-bold pt-4"><%= address.name %></h1>
+    <% }); %>  
     <div class="col-lg-6 mx-auto">
+      <% addressStreet.forEach(function(addressStreet) { %>
       <p class="lead mb-4">
-        ul. Mostowa 1 <br>
-        87-400 Golub-Dobrzyń</p>
-      
+        <%= addressStreet.name %><br>
+        <%= addressStreet.description %></p>
+        <% }); %>  
     </div>
   </div>
 
