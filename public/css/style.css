@@ -130,6 +130,12 @@ a:hover {
   color: white;
 }
 
+.main-articule {
+  color: #333520;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
 .info-about-us {
   color: #333520;
   font-size: 1.25rem;
