@@ -1,0 +1,1639 @@
+[{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bee"
+  },
+  "type": "stairs",
+  "key": "stairs-2",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/9.jpg",
+  "thumb": "uploads/photos/stairs/9t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bed"
+  },
+  "type": "stairs",
+  "key": "stairs-2",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/8.jpg",
+  "thumb": "uploads/photos/stairs/8t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bec"
+  },
+  "type": "stairs",
+  "key": "stairs-2",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/7.jpg",
+  "thumb": "uploads/photos/stairs/7t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523be7"
+  },
+  "type": "stairs",
+  "key": "stairs-1",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/2.jpg",
+  "thumb": "uploads/photos/stairs/2t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bea"
+  },
+  "type": "stairs",
+  "key": "stairs-2",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/5.jpg",
+  "thumb": "uploads/photos/stairs/5t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523be8"
+  },
+  "type": "stairs",
+  "key": "stairs-1",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/3.jpg",
+  "thumb": "uploads/photos/stairs/3t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bf3"
+  },
+  "type": "stairs",
+  "key": "stairs-4",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/15.jpg",
+  "thumb": "uploads/photos/stairs/15t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523be6"
+  },
+  "type": "stairs",
+  "key": "stairs-1",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/1.jpg",
+  "thumb": "uploads/photos/stairs/1t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bf6"
+  },
+  "type": "stairs",
+  "key": "stairs-4",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/18.jpg",
+  "thumb": "uploads/photos/stairs/18t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523be9"
+  },
+  "type": "stairs",
+  "key": "stairs-1",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/4.jpg",
+  "thumb": "uploads/photos/stairs/4t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bf1"
+  },
+  "type": "stairs",
+  "key": "stairs-3",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/12.jpg",
+  "thumb": "uploads/photos/stairs/12t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bf0"
+  },
+  "type": "stairs",
+  "key": "stairs-3",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/11.jpg",
+  "thumb": "uploads/photos/stairs/11t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bf2"
+  },
+  "type": "stairs",
+  "key": "stairs-4",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/14.jpg",
+  "thumb": "uploads/photos/stairs/14t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523beb"
+  },
+  "type": "stairs",
+  "key": "stairs-12",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/6.jpg",
+  "thumb": "uploads/photos/stairs/6t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bef"
+  },
+  "type": "stairs",
+  "key": "stairs-2",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/10.jpg",
+  "thumb": "uploads/photos/stairs/10t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bf4"
+  },
+  "type": "stairs",
+  "key": "stairs-4",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/16.jpg",
+  "thumb": "uploads/photos/stairs/16t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6227fd5cab2f922c3a523bf5"
+  },
+  "type": "stairs",
+  "key": "stairs-4",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "description_en": "Wooden stairs with handrails in a single-family house",
+  "description_pl": "Schody drewniane wraz z poręczami w domku jednorodzinnym ",
+  "image": "uploads/photos/stairs/17.jpg",
+  "thumb": "uploads/photos/stairs/17t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b30d"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/1.jpg",
+  "thumb": "uploads/photos/kitchen/1t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b30e"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/2.jpg",
+  "thumb": "uploads/photos/kitchen/2t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b30f"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/3.jpg",
+  "thumb": "uploads/photos/kitchen/3t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b310"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/4.jpg",
+  "thumb": "uploads/photos/kitchen/4t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b311"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/5.jpg",
+  "thumb": "uploads/photos/kitchen/5t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b312"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/6.jpg",
+  "thumb": "uploads/photos/kitchen/6t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b313"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/7.jpg",
+  "thumb": "uploads/photos/kitchen/7t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b314"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/8.jpg",
+  "thumb": "uploads/photos/kitchen/8t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b315"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/9.jpg",
+  "thumb": "uploads/photos/kitchen/9t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c67560108047ae39b316"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/10.jpg",
+  "thumb": "uploads/photos/kitchen/10t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef078075"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/11.jpg",
+  "thumb": "uploads/photos/kitchen/11t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef078076"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/12.jpg",
+  "thumb": "uploads/photos/kitchen/12t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef078077"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/13.jpg",
+  "thumb": "uploads/photos/kitchen/13t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef078078"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/14.jpg",
+  "thumb": "uploads/photos/kitchen/14t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef078079"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/15.jpg",
+  "thumb": "uploads/photos/kitchen/15t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef07807a"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/16.jpg",
+  "thumb": "uploads/photos/kitchen/16t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef07807b"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/17.jpg",
+  "thumb": "uploads/photos/kitchen/17t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef07807c"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/18.jpg",
+  "thumb": "uploads/photos/kitchen/18t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef07807d"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/19.jpg",
+  "thumb": "uploads/photos/kitchen/19t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c780ede37fa2ef07807e"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/20.jpg",
+  "thumb": "uploads/photos/kitchen/20t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672c8"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/21.jpg",
+  "thumb": "uploads/photos/kitchen/21t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672c9"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/22.jpg",
+  "thumb": "uploads/photos/kitchen/22t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672ca"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/23.jpg",
+  "thumb": "uploads/photos/kitchen/23t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672cb"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/24.jpg",
+  "thumb": "uploads/photos/kitchen/24t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672cc"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/25.jpg",
+  "thumb": "uploads/photos/kitchen/25t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672cd"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/26.jpg",
+  "thumb": "uploads/photos/kitchen/26t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672ce"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/27.jpg",
+  "thumb": "uploads/photos/kitchen/27t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672cf"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/28.jpg",
+  "thumb": "uploads/photos/kitchen/28t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672d0"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/29.jpg",
+  "thumb": "uploads/photos/kitchen/29t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c7e177e680ee04b672d1"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/30.jpg",
+  "thumb": "uploads/photos/kitchen/30t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a90fc"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/31.jpg",
+  "thumb": "uploads/photos/kitchen/31t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a90fd"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/32.jpg",
+  "thumb": "uploads/photos/kitchen/32t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a90fe"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/33.jpg",
+  "thumb": "uploads/photos/kitchen/33t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a90ff"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/34.jpg",
+  "thumb": "uploads/photos/kitchen/34t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a9100"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/35.jpg",
+  "thumb": "uploads/photos/kitchen/35t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a9101"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/36.jpg",
+  "thumb": "uploads/photos/kitchen/36t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a9102"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/37.jpg",
+  "thumb": "uploads/photos/kitchen/37t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a9103"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/38.jpg",
+  "thumb": "uploads/photos/kitchen/38t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a9104"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/39.jpg",
+  "thumb": "uploads/photos/kitchen/39t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8961e279da5284a9105"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/40.jpg",
+  "thumb": "uploads/photos/kitchen/40t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a408"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/41.jpg",
+  "thumb": "uploads/photos/kitchen/41t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a409"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/42.jpg",
+  "thumb": "uploads/photos/kitchen/42t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a40a"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/43.jpg",
+  "thumb": "uploads/photos/kitchen/43t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a40b"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/44.jpg",
+  "thumb": "uploads/photos/kitchen/44t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a40c"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/45.jpg",
+  "thumb": "uploads/photos/kitchen/45t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a40d"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/46.jpg",
+  "thumb": "uploads/photos/kitchen/46t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a40e"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/47.jpg",
+  "thumb": "uploads/photos/kitchen/47t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a40f"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/48.jpg",
+  "thumb": "uploads/photos/kitchen/48t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a410"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/49.jpg",
+  "thumb": "uploads/photos/kitchen/49t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c8df8e70d0208919a411"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/50.jpg",
+  "thumb": "uploads/photos/kitchen/50t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c92e7a14916f46203711"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/51.jpg",
+  "thumb": "uploads/photos/kitchen/51t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c92e7a14916f46203712"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/52.jpg",
+  "thumb": "uploads/photos/kitchen/52t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c92e7a14916f46203713"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/53.jpg",
+  "thumb": "uploads/photos/kitchen/53t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228c92e7a14916f46203714"
+  },
+  "type": "kitchen",
+  "key": "kitchen",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "description_en": "Built-in kitchen with furniture boards and solid wood.",
+  "description_pl": "Kuchnia zabudowana z płyt meblowych oraz  z drewna litego.",
+  "image": "uploads/photos/kitchen/54.jpg",
+  "thumb": "uploads/photos/kitchen/54t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628d7"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/1.jpg",
+  "thumb": "uploads/photos/office/1t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628d8"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/2.jpg",
+  "thumb": "uploads/photos/office/2t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628d9"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/3.jpg",
+  "thumb": "uploads/photos/office/3t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628da"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/4.jpg",
+  "thumb": "uploads/photos/office/4t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628db"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/5.jpg",
+  "thumb": "uploads/photos/office/5t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628dc"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/6.jpg",
+  "thumb": "uploads/photos/office/6t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628dd"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/7.jpg",
+  "thumb": "uploads/photos/office/7t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628de"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/8.jpg",
+  "thumb": "uploads/photos/office/8t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628df"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/9.jpg",
+  "thumb": "uploads/photos/office/9t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e0"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/10.jpg",
+  "thumb": "uploads/photos/office/10t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e1"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/11.jpg",
+  "thumb": "uploads/photos/office/11t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e2"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/12.jpg",
+  "thumb": "uploads/photos/office/12t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e3"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/13.jpg",
+  "thumb": "uploads/photos/office/13t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e4"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/14.jpg",
+  "thumb": "uploads/photos/office/14t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e5"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/15.jpg",
+  "thumb": "uploads/photos/office/15t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e6"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/16.jpg",
+  "thumb": "uploads/photos/office/16t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e7"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/17.jpg",
+  "thumb": "uploads/photos/office/17t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e8"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/18.jpg",
+  "thumb": "uploads/photos/office/18t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628e9"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/19.jpg",
+  "thumb": "uploads/photos/office/19t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628ea"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/20.jpg",
+  "thumb": "uploads/photos/office/20t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628eb"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/21.jpg",
+  "thumb": "uploads/photos/office/21t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628ec"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/22.jpg",
+  "thumb": "uploads/photos/office/22t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628ed"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/23.jpg",
+  "thumb": "uploads/photos/office/23t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628ee"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/24.jpg",
+  "thumb": "uploads/photos/office/24t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628ef"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/25.jpg",
+  "thumb": "uploads/photos/office/25t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628f0"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/26.jpg",
+  "thumb": "uploads/photos/office/26t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628f1"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/27.jpg",
+  "thumb": "uploads/photos/office/27t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628f2"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/28.jpg",
+  "thumb": "uploads/photos/office/28t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628f3"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/29.jpg",
+  "thumb": "uploads/photos/office/29t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228cce0ac9970d5b1a628f4"
+  },
+  "type": "office",
+  "key": "office",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "description_en": "Furniture for the office",
+  "description_pl": "Meble dla biura",
+  "image": "uploads/photos/office/30.jpg",
+  "thumb": "uploads/photos/office/30t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0cc"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/1.jpg",
+  "thumb": "uploads/photos/wardrobes/1t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0cd"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/2.jpg",
+  "thumb": "uploads/photos/wardrobes/2t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0ce"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/3.jpg",
+  "thumb": "uploads/photos/wardrobes/3t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0cf"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/4.jpg",
+  "thumb": "uploads/photos/wardrobes/4t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0d0"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/5.jpg",
+  "thumb": "uploads/photos/wardrobes/5t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0d1"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/6.jpg",
+  "thumb": "uploads/photos/wardrobes/6t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0d2"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/7.jpg",
+  "thumb": "uploads/photos/wardrobes/7t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0d3"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/8.jpg",
+  "thumb": "uploads/photos/wardrobes/8t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0d4"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/9.jpg",
+  "thumb": "uploads/photos/wardrobes/9t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d47694bb53cb8de0d0d5"
+  },
+  "type": "wardrobes",
+  "key": "wardrobes",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "description_en": "Wardrobes and built-in furniture",
+  "description_pl": "Szafy i zabudowa wnęk",
+  "image": "uploads/photos/wardrobes/10.jpg",
+  "thumb": "uploads/photos/wardrobes/10t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d76f1c0003bf7e961a60"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/1.jpg",
+  "thumb": "uploads/photos/interior/1t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955731"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/2.jpg",
+  "thumb": "uploads/photos/interior/2t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955732"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/3.jpg",
+  "thumb": "uploads/photos/interior/3t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955733"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/4.jpg",
+  "thumb": "uploads/photos/interior/4t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955734"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/5.jpg",
+  "thumb": "uploads/photos/interior/5t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955735"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/6.jpg",
+  "thumb": "uploads/photos/interior/6t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955736"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/7.jpg",
+  "thumb": "uploads/photos/interior/7t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955737"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/8.jpg",
+  "thumb": "uploads/photos/interior/8t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955738"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/9.jpg",
+  "thumb": "uploads/photos/interior/9t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c2971955739"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/10.jpg",
+  "thumb": "uploads/photos/interior/10t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c297195573a"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/11.jpg",
+  "thumb": "uploads/photos/interior/11t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c297195573b"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/12.jpg",
+  "thumb": "uploads/photos/interior/12t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c297195573c"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/13.jpg",
+  "thumb": "uploads/photos/interior/13t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c297195573d"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/14.jpg",
+  "thumb": "uploads/photos/interior/14t.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6228d8678b525c297195573e"
+  },
+  "type": "interior",
+  "key": "interior",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "description_en": "Wooden internal structures, walls and doors",
+  "description_pl": "Drewniane konstrukcje wewnętrzne, ściany i drzwi",
+  "image": "uploads/photos/interior/15.jpg",
+  "thumb": "uploads/photos/interior/15t.jpg",
+  "__v": 0
+}]

@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be422"
+  },
+  "type": "category",
+  "name_en": "Kitchen",
+  "name_pl": "Kuchnia",
+  "image": "kitchen.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "kitchen"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be423"
+  },
+  "type": "category",
+  "name_en": "Stairs",
+  "name_pl": "Schody",
+  "image": "stairs.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "stairs"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be424"
+  },
+  "type": "category",
+  "name_en": "Office",
+  "name_pl": "Biuro",
+  "image": "office.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "office"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be425"
+  },
+  "type": "category",
+  "name_en": "Interior design",
+  "name_pl": "Zabudowa wnętrz",
+  "image": "interior.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "interior"
+},{
+  "_id": {
+    "$oid": "6221ee8b4184beb5283be426"
+  },
+  "type": "category",
+  "name_en": "Wardrobes",
+  "name_pl": "Szafy",
+  "image": "wardrobes.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "wardrobes"
+},{
+  "_id": {
+    "$oid": "62227c95827bd0137a79d946"
+  },
+  "type": "main_articule",
+  "name_en": "Furniture for you",
+  "name_pl": "Meble dla Ciebie",
+  "image": "",
+  "description_en": "We create custom-made furniture according to specific needs for individual clients, companies and institutions. Our goal is comfort, functionality and practicality.",
+  "description_pl": "Tworzymy meble na zamówienie według określonych potrzeb dla klientów indywidualnych, firm i instytucji. Liczy się dla nas wygoda, funkcjonalność, praktyczność.",
+  "key": "main_art_description",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6223e86ead93061017bf7c1e"
+  },
+  "type": "menu-logo-name",
+  "name_en": "Custom Furniture",
+  "name_pl": "Meble na wymiar",
+  "key": "menu-logo-name"
+},{
+  "_id": {
+    "$oid": "6223f605ad93061017bf7c1f"
+  },
+  "type": "menu-main-page",
+  "key": "menu-main-page",
+  "name_en": "Main page",
+  "name_pl": "Strona główna"
+},{
+  "_id": {
+    "$oid": "62240640ad93061017bf7c20"
+  },
+  "type": "menu-main-about",
+  "key": "menu-main-about",
+  "name_en": "About us",
+  "name_pl": "O nas"
+},{
+  "_id": {
+    "$oid": "622407c1ad93061017bf7c21"
+  },
+  "type": "menu-main-contact",
+  "key": "menu-main-contact",
+  "name_en": "Contact",
+  "name_pl": "Kontakt"
+},{
+  "_id": {
+    "$oid": "6224c2526291854a35a7b7ff"
+  },
+  "type": "main-articule-last",
+  "key": "main-articule-last",
+  "name_en": "Show last work",
+  "name_pl": "Pokaż ostatnia prace"
+},{
+  "_id": {
+    "$oid": "6224ca5b6291854a35a7b800"
+  },
+  "type": "main-articule-random",
+  "key": "main-articule-random",
+  "name_en": "Show random work",
+  "name_pl": "Pokaż losową prace"
+},{
+  "_id": {
+    "$oid": "62266a3cad1eeb3944969a67"
+  },
+  "type": "category",
+  "name_en": "Show All",
+  "name_pl": "Pokaż wszystkie",
+  "image": "kitchen.jpg",
+  "description_en": "",
+  "description_pl": "",
+  "__v": 0,
+  "key": "all"
+},{
+  "_id": {
+    "$oid": "622e07d3c0ac9249994be1cb"
+  },
+  "type": "information-about-us",
+  "name_en": "About us",
+  "name_pl": "Informacje o nas",
+  "image": "",
+  "description_en": "Customized furniture is run by company: Zakład Stolarki - Usługi Ogólno-Budowlane. The company was founded in 1988 to create furniture with passion and love. A lot has changed over these several years. Currently, we focus on functional and simple projects that will not overwhelm our apartments, offices or institutions, but will also be a kind of decoration. The range of our services is wide. From design to assembly, we create stairs, doors, built-in recesses and kitchen furniture.\nYoure satisfaction is importent for us, therefore we provide high quality services at reasonable prices, professional advice, own transport and friendly service. In our furniture, we offer both modern technical solutions as well as traditional, proven and used for many years. Because we focus on satisfaction, our client decides about the colors, design and materials used.",
+  "description_pl": "Meble na wymiar prowadzony jest przez Zakład Stolarski - Usługi Ogólno-Budowlane. Firma powstałą w 1988 roku by zamiłowaniem i pasją tworzyć meble. Przez te kilkanaście lat wiele się zmieniło. Obecnie stawiamy na funkcjonalne i proste projekty, które nie przytłoczą naszych mieszkań, biur czy instytucji ale będą też swoistą dekoracją. Wachlarz naszych usług jest szeroki. Od projektu do montażu tworzymy schody, drzwi, zabudowy wnęk oraz meble kuchenne.\nLiczy się dla nas zadowolenie dlatego zapewniamy wysoką jakość usług w rozsądnych cenach, profesjonalne doradztwo, własny transport i miłą obsługę. W naszych meblach proponujemy zarówno nowoczesne rozwiązania techniczne jak i te tradycyjne, sprawdzone i stosowane od wielu lat. Ponieważ stawiamy na zadowolenie to nasz klient decyduje o kolorystyce, wzornictwie i stosowanych materiałach.",
+  "key": "information-about-us",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622e1073b141580a1a06d918"
+  },
+  "type": "contact-us",
+  "name_en": "Contact us",
+  "name_pl": "Skontaktuj się z nami",
+  "image": "",
+  "description_en": "biuro@meblenawymiar.us",
+  "description_pl": "biuro@meblenawymiar.us",
+  "key": "contact-us",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622e173774a396c41a0fd6ef"
+  },
+  "type": "contact-us-phone",
+  "name_en": "Phone: 600-981-563",
+  "name_pl": "Telefon: 600-981-563",
+  "image": "",
+  "description_en": "biuro@meblenawymiar.us",
+  "description_pl": "biuro@meblenawymiar.us",
+  "key": "contact-us-phone",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622e7ce4fe9e35f543f1c35a"
+  },
+  "type": "address",
+  "name_en": "Address",
+  "name_pl": "Adres",
+  "image": "",
+  "description_en": "",
+  "description_pl": "",
+  "key": "address",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622e7cfbfe9e35f543f1c35c"
+  },
+  "type": "address-street",
+  "name_en": "Mostowa 1",
+  "name_pl": "Ul. Mostowa 1",
+  "image": "",
+  "description_en": "87-400 Golub-Dobrzyń",
+  "description_pl": "87-400 Golub-Dobrzyń",
+  "key": "address-street",
+  "__v": 0
+}]
