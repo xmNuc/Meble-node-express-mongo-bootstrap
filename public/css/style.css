@@ -147,6 +147,11 @@ a:hover {
   height: 85px;
 }
 
+.nav {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
 .nav-nuc {
   background-color: rgba(255, 255, 255, 0.9);
   display: -webkit-box;
@@ -163,6 +168,10 @@ a:hover {
   margin-top: 8%;
 }
 
+.language {
+  font-size: 1.25rem;
+}
+
 .mapouter {
   position: relative;
   text-align: right;
@@ -177,5 +186,28 @@ a:hover {
   width: 100%;
   border: 1px solid #e0f7ff;
   border-radius: 10px;
+}
+
+@media (max-width: 764px) {
+  .body .main-logo {
+    font-size: 1.5rem;
+  }
+  .body .logo-img {
+    width: 50px;
+    height: 35px;
+  }
+  .body img {
+    border-radius: 300px;
+  }
+  .nav {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  .nav-nuc {
+    font-size: 0.4rem !important;
+  }
+  .language {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta
+      name="description"
+      content="Meble na wymiar, meble kuchenne, schody, meble biurowe, zabudowy, szfy wn&#281;kowe "
+    />
+    <meta
+      name="keywords"
+      content="Meble na wymiar, meble kuchenne, schody, meble biurowe, zabudowy, szfy wn&#281;kowe, Meble W&#322;oc&#322;awek, Meble Golub-Dobrzy&#324;, zabudowy z drewna  "
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,12 +42,12 @@
         <% menuLogoName.forEach(function(menuLogoName) { %>
         <a
           href="#body-top"
-          class="d-flex align-items-center col-xs-3 mb-1 mb-md-0 text-decoration-none main-logo"
+          class="d-flex align-items-center col-xs-3 mb-md-0 text-decoration-none main-logo"
           id="<%= menuLogoName.key%>"
           ><img src="/img/logo.png" class="logo-img" alt="Meble na wymiar" /><%= menuLogoName.name%>
         </a>
         <% }); %>
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-centermb-md-0 fs-5">
+        <ul class="nav col-12 col-md-auto justify-content-center mb-md-0">
           <li>
             <% menuMainPage.forEach(function(menuMainPage) { %>
             <a href="#body-top" class="nav-link px-3 link-sec-nuc" id="<%= menuMainPage.key%>"
@@ -62,7 +71,7 @@
           </li>
         </ul>
 
-        <div class="language fs-5 px-5">
+        <div class="language px-5">
           <a href="/pl" class="lang-pl">PL</a> /
           <a href="/en" class="lang-en">EN</a>
         </div>
